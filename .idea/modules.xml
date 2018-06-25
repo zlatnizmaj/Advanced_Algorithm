@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Advanced_Algorithm.iml" filepath="$PROJECT_DIR$/.idea/Advanced_Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Xu_ly_anh/.idea/XLA.iml" filepath="$PROJECT_DIR$/../Xu_ly_anh/.idea/XLA.iml" />
+    </modules>
+  </component>
+</project>
