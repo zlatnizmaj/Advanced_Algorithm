@@ -91,20 +91,64 @@ Branching and Iteration
 # print(toPrint)
 
 #square an interger, the hard way
-x = -2
-ans = 0
-itersLeft = abs(x)
-while (itersLeft != 0):
-    ans += abs(x)
-    itersLeft -= 1
-print(str(abs(x)) + '*' + str(abs(x)) + ' = ' + str(ans))
+# x = -2
+# ans = 0
+# itersLeft = abs(x)
+# while (itersLeft != 0):
+#     ans += abs(x)
+#     itersLeft -= 1
+# print(str(abs(x)) + '*' + str(abs(x)) + ' = ' + str(ans))
+#
+# # Executing a break statement terminates the loop
+# # Find a positive integer that is divisible by both 11 and 12
+#
+# x = 1
+# while True:
+#     if x % 11 == 0 and x % 12 == 0:
+#         break
+#     x += 1
+# print(x, 'is divisible by 11 and 12')
 
-# Executing a break statement terminates the loop
-# Find a positive integer that is divisible by both 11 and 12
+# Exhaustive Enumeraion
+# Find the cube root of a perfect cube
+# x = int(input('Enter an integer: '))
+# ans = 0
+# while ans**3 < abs(x):
+#     #print('Value of the decrementing function abs(x) - ans**3 is', abs(x) - ans**3)
+#     ans += 1
+#     #ans = ans # infinite loop
+#
+# if ans**3 != abs(x):
+#     print(x, 'is not a perfect cube')
+# else:
+#     if x < 0:
+#         ans = -ans
+#     print('Cube root of', x, 'is', ans)
 
-x = 1
-while True:
-    if x % 11 == 0 and x % 12 == 0:
-        break
-    x += 1
-print(x, 'is divisible by 11 and 12')
+"""
+Write a program that asks the user to enter an integer and prints two integers, root and pwr, such that 0 < pwr < 6 and 
+root**pwr is equal to the integer entered by the user. 
+If no such pair of integers exists, it should print a message to that effect
+"""
+# x = int(input('Enter an integer: '))
+#
+# pwr = 1
+# for p in range (2,6):
+#     root = 0
+#     while root**p < abs(x):
+#         root += 1
+#         pwr = p
+#
+# if root**pwr != abs(x):
+#     print('Have not result for entered number!!')
+# else:
+#     if x < 0:
+#         root = -root
+#         pwr = -pwr
+#     print('Result is: root = {}, pwr = {}'.format(root,pwr))
+
+integer = 6
+for root in range(0,integer):
+    for pwr in range(1,6):
+        if root ** pwr == integer:
+            print (root, pwr)
