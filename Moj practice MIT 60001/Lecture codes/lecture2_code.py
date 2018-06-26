@@ -130,25 +130,44 @@ Write a program that asks the user to enter an integer and prints two integers, 
 root**pwr is equal to the integer entered by the user. 
 If no such pair of integers exists, it should print a message to that effect
 """
-# x = int(input('Enter an integer: '))
-#
-# pwr = 1
-# for p in range (2,6):
-#     root = 0
-#     while root**p < abs(x):
-#         root += 1
-#         pwr = p
-#
-# if root**pwr != abs(x):
-#     print('Have not result for entered number!!')
-# else:
-#     if x < 0:
-#         root = -root
-#         pwr = -pwr
-#     print('Result is: root = {}, pwr = {}'.format(root,pwr))
+x = int(input('Enter an integer: '))
+root = 0
+pwr = 2
+notfound = True
+while pwr < 6:
+    while abs(root**pwr) < abs(x):
+        root += 1
+    if root**pwr == abs(x):
+        if x < 0:
+            root = -root
+        print('root = {}, pwr = {},'.format(root, pwr), str(root) + "**" + str(pwr) + " = " + str(x))
+        notfound = False
+    root = 0
+    pwr += 1
+if notfound:
+    print('Not have result for entered number')
 
-integer = 6
-for root in range(0,integer):
-    for pwr in range(1,6):
-        if root ** pwr == integer:
-            print (root, pwr)
+#########
+# num = int(input("Enter an integer: "))
+# pwr = 1
+# root = 0
+# found = False
+# if num < 0:
+#     neg = True
+# else:
+#     neg = False
+# while pwr < 6:
+#     while abs(root**pwr) <= abs(num):
+#         if root**pwr == num:
+#             print(str(root) + "**" + str(pwr) + " = " + str(num))
+#             found = True
+#         if abs(root) > abs(num):
+#             root = 0
+#         elif neg:
+#             root -= 1
+#         else:
+#             root +=1
+#     pwr += 1
+#     root = 0
+# if not found:
+#     print("No pair of integers, 'root' and 'pwr', exists such that 0 < pwr < 6 and root**pwr = " + str(num))
