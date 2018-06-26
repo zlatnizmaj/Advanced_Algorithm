@@ -134,7 +134,8 @@ x = int(input('Enter an integer: '))
 root = 0
 pwr = 2
 notfound = True
-while pwr < 6:
+#while pwr < 6:
+for pwr in range(2, 6):
     while abs(root**pwr) < abs(x):
         root += 1
     if root**pwr == abs(x):
@@ -143,9 +144,10 @@ while pwr < 6:
         print('root = {}, pwr = {},'.format(root, pwr), str(root) + "**" + str(pwr) + " = " + str(x))
         notfound = False
     root = 0
-    pwr += 1
+    #pwr += 1
 if notfound:
     print('Not have result for entered number')
+print(16*16)
 
 #########
 # num = int(input("Enter an integer: "))
