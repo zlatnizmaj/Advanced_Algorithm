@@ -148,6 +148,7 @@ for pwr in range(2, 6):
 if notfound:
     print('Not have result for entered number')
 print(16*16)
+print(17*17)
 
 #########
 # num = int(input("Enter an integer: "))
