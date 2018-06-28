@@ -149,6 +149,7 @@ if notfound:
     print('Not have result for entered number')
 print(16*16)
 print(17*17)
+print(18*18)
 
 #########
 # num = int(input("Enter an integer: "))
