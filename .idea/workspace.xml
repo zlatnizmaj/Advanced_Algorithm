@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e54dfdeb-8d8f-4a2c-ab12-3823df6c3722" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Xu_ly_anh/MojXLA.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buteworthFilter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="buteworthFilter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/buteworthFilter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="76">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -49,9 +49,41 @@
       <file leaf-file-name="Chuong4_Trainingp61.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/Chuong4_Trainingp61.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-51">
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matrix.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/Moj Python/Matrix.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
+              <folding>
+                <element signature="e#172#190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mang 1 chieu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/Moj Python/Numpy/Mang 1 chieu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getStarted.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/getStarted.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,14 +107,14 @@
         <option value="$PROJECT_DIR$/Moj practice MIT 60001/Lecture codes/lecture2_code.py" />
         <option value="$PROJECT_DIR$/../Xu_ly_anh/idealFilter.py" />
         <option value="$PROJECT_DIR$/../Xu_ly_anh/buteworthFilter.py" />
+        <option value="$PROJECT_DIR$/../Xu_ly_anh/Moj Python/Matrix.py" />
+        <option value="$PROJECT_DIR$/../Xu_ly_anh/Moj Python/Numpy/Mang 1 chieu.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="640" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="683" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -92,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,16 +136,26 @@
               <item name="Advanced_Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Xu_ly_anh" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Advanced_Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Xu_ly_anh" type="462c0819:PsiDirectoryNode" />
+              <item name="Moj Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced_Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Xu_ly_anh" type="462c0819:PsiDirectoryNode" />
+              <item name="Moj Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Numpy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -131,7 +174,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.buteworthFilter">
+  <component name="RunManager" selected="Python.Mang 1 chieu">
+    <configuration name="Mang 1 chieu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="XLA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Xu_ly_anh/Moj Python/Numpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Xu_ly_anh/Moj Python/Numpy/Mang 1 chieu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="XLA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Xu_ly_anh/Moj Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Xu_ly_anh/Moj Python/Matrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="buteworthFilter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="XLA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,6 +224,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Xu_ly_anh/buteworthFilter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="getStarted" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="XLA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Xu_ly_anh" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Xu_ly_anh/getStarted.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,9 +268,15 @@
     <list>
       <item itemvalue="Python.idealFilter" />
       <item itemvalue="Python.buteworthFilter" />
+      <item itemvalue="Python.getStarted" />
+      <item itemvalue="Python.Matrix" />
+      <item itemvalue="Python.Mang 1 chieu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Mang 1 chieu" />
+        <item itemvalue="Python.Matrix" />
+        <item itemvalue="Python.getStarted" />
         <item itemvalue="Python.buteworthFilter" />
         <item itemvalue="Python.idealFilter" />
       </list>
@@ -201,14 +304,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3023426" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5285505" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32861635" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32861635" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32741934" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5393082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -230,6 +333,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="modified 270618" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Moj practice MIT 60001/Lecture codes/lecture2_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="11" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/idealFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/Chuong4_Trainingp61.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/buteworthFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Moj practice MIT 60001/Lecture codes/lecture2_code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
@@ -287,15 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/Chuong4_Trainingp61.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/idealFilter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -306,12 +436,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/buteworthFilter.py">
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/MojXLA.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/vd2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="-83">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/noisuy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/Chuong4_Trainingp61.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/buteworthFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/Moj Python/Numpy/Mang 1 chieu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/Moj Python/Matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#172#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/getStarted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
