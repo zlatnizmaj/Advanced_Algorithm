@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e54dfdeb-8d8f-4a2c-ab12-3823df6c3722" name="Default" comment="" />
+    <list default="true" id="e54dfdeb-8d8f-4a2c-ab12-3823df6c3722" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +16,7 @@
       <file leaf-file-name="lecture2_code.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Moj practice MIT 60001/Lecture codes/lecture2_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="2550">
               <caret line="150" column="11" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
             </state>
           </provider>
@@ -35,8 +37,8 @@
       <file leaf-file-name="idealFilter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/idealFilter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-end-line="42" />
+            <state relative-caret-position="85">
+              <caret line="8" selection-end-line="42" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -90,7 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,6 +107,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,9 +201,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30307466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3023426" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32861635" />
@@ -235,6 +237,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/idealFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" lean-forward="true" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/Chuong4_Trainingp61.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/buteworthFilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Moj practice MIT 60001/Lecture codes/lecture2_code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
@@ -244,7 +275,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Moj practice MIT 60001/Lecture codes/lecture2_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="2550">
+          <caret line="150" column="11" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Moj practice MIT 60001/Lecture codes/lecture2_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
           <caret line="150" column="11" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
         </state>
       </provider>
@@ -260,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Xu_ly_anh/idealFilter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-end-line="42" />
+        <state relative-caret-position="85">
+          <caret line="8" selection-end-line="42" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
