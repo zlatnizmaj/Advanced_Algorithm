@@ -36,15 +36,15 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
-from sklearn.svm import SVC # buil lại giải thuật
+from sklearn.svm import SVC  # build lại giải thuật
 
 
 # Load dataset
-#url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
+# url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 # dataset = pandas.read_csv(url, names=names)
 
-dataset = pandas.read_csv('D:\\@JUGNAM#\\06 Advanced Algorithm\\01 Bai tap Python\\Iris.txt', names=names)
+dataset = pandas.read_csv('Iris.txt', names=names)
 
 
 # shape
@@ -67,15 +67,15 @@ dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False
 
 # histograms
 dataset.hist()
-#plt.show()
+plt.show()
 
 # scatter plot matrix
 scatter_matrix(dataset)
 
 # Split-out validation dataset
 array = dataset.values
-X = array[:,0:4]
-Y = array[:,4]
+X = array[:, 0:4]
+Y = array[:, 4]
 validation_size = 0.20
 seed = 7
 X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(X, Y,test_size=validation_size, random_state=seed)
@@ -103,19 +103,19 @@ for name, model in models:
 	msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
 	print(msg)
 
-#model= SVC()
-SVM=SVC()
-SVM.fit(X_train,Y_train)
+#model = SVC()
+SVM = SVC()
+SVM.fit(X_train, Y_train)
 predictions=SVM.predict(X_validation)
-#print(X_validation, Y_validation)
-print(accuracy_score(Y_validation,predictions))
-print(confusion_matrix(Y_validation,predictions))
-print(classification_report(Y_validation,predictions))
+print(X_validation, Y_validation)
+print(accuracy_score(Y_validation, predictions))
+print(confusion_matrix(Y_validation, predictions))
+print(classification_report(Y_validation, predictions))
 
-#print(X_validation,Y_validation), lưu ra model, mỗi lần change
+# print(X_validation,Y_validation), lưu ra model, mỗi lần change
 from pickle import dump
 filename = 'finalized_model.sav'
-dump(SVM,open(filename,'wb'))
+dump(SVM, open(filename, 'wb'))
 
 
 
