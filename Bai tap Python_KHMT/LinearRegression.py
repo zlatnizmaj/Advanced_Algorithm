@@ -47,13 +47,13 @@ plt.show()
 y1 = w_1*155 + w_0
 y2 = w_1*160 + w_0
 
-print ("Dự đoán cân nặng của người có chiều cao 155 cm: %.2f (kg), số liệu thật: 52 (kg)"  %(y1)) 
-print ("Dự đoán cân nặng của người có chiều cao 160 cm: %.2f (kg), số liệu thật: 56 (kg)"  %(y2))
+print("Dự đoán cân nặng của người có chiều cao 155 cm: %.2f (kg), số liệu thật: 52 (kg)" %(y1)) 
+print("Dự đoán cân nặng của người có chiều cao 160 cm: %.2f (kg), số liệu thật: 56 (kg)" %(y2))
 
 from sklearn import datasets, linear_model
 
 # fit the model by Linear Regression
-regr = linear_model.LinearRegression(fit_intercept=False) # fit_intercept = False for calculating the bias
+regr = linear_model.LinearRegression(fit_intercept=False)  # fit_intercept = False for calculating the bias
 regr.fit(Xbar, y)
 
 # Compare two results
