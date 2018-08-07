@@ -24,7 +24,7 @@ from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 
 names = ['D-C', 'R_C', 'D-D', 'R-D', 'Loai hoa']
-dataset = pandas.read_csv('D:\\@JUGNAM#\\06 Advanced Algorithm\\01 Bai tap Python\\Iris.txt', names=names)
+dataset = pandas.read_csv('Iris.txt', names=names)
 print(dataset.shape)
 
 print(dataset.head(20))
@@ -33,3 +33,5 @@ print(dataset.groupby('Loai hoa').size())
 dataset.plot(kind='box', subplots = True, layout=(2,2), sharex=False,sharey=False)
 dataset.hist()
 scatter_matrix(dataset)
+
+plt.show()
