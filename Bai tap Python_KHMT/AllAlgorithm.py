@@ -58,7 +58,7 @@ print(dataset.head())
 print(dataset.describe())
 
 # class distribution
-print(dataset.groupby('class').size())
+# print(dataset.groupby('class').size())
 
 # box and whisker plots
 dataset.plot(kind='box', subplots=True, layout=(2, 2), sharex=False, sharey=False)
@@ -82,11 +82,11 @@ X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(
 
 # Spot Check Algorithms
 models = []
-models.append(('LR', LogisticRegression()))
-models.append(('LDA', LinearDiscriminantAnalysis()))
-models.append(('KNN', KNeighborsClassifier()))
-models.append(('CART', DecisionTreeClassifier()))
-models.append(('NB', GaussianNB()))
+# models.append(('LR', LogisticRegression()))
+# models.append(('LDA', LinearDiscriminantAnalysis()))
+# models.append(('KNN', KNeighborsClassifier()))
+# models.append(('CART', DecisionTreeClassifier()))
+# models.append(('NB', GaussianNB()))
 models.append(('SVM', SVC()))
 
 # Test options and evaluation metric
@@ -103,13 +103,13 @@ for name, model in models:
 	msg = "%s: %f (%f)" % (name, cv_results.mean(), cv_results.std())
 	print(msg)
 
-#model = SVC()
+model = SVC()
 SVM = SVC()
 SVM.fit(X_train, Y_train)
-predictions=SVM.predict(X_validation)
+predictions = SVM.predict(X_validation)
 print(X_validation, Y_validation)
-print(accuracy_score(Y_validation, predictions))
-print(confusion_matrix(Y_validation, predictions))
+print('accuracy:\n', accuracy_score(Y_validation, predictions))
+print('confusion_matrix:\n',confusion_matrix(Y_validation, predictions))
 print(classification_report(Y_validation, predictions))
 
 # print(X_validation,Y_validation), lưu ra model, mỗi lần change
